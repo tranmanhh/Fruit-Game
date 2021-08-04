@@ -1,0 +1,11 @@
+#scoreBox{
+    width: 100px;
+    height: 100%;
+    font-size: 21px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #F3F78F;
+    color: #BEB665;
+    @include boxShadow(0px, 5px, #989A49);
+    float: right;
+}

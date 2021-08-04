@@ -1,0 +1,168 @@
+#live {
+  width: 180px;
+  height: 100%;
+  background-color: #F3F78F;
+  box-shadow: 0px 5px #84A5A4;
+  -moz-box-shadow: 0px 5px #84A5A4;
+  -webkit-box-shadow: 0px 5px #84A5A4;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -webkit-display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: left;
+}
+
+#live1, #live2, #live3 {
+  width: 50px;
+  height: 90%;
+  background: url(/styling/Images/heart.png) center no-repeat;
+}
+
+#scoreBox {
+  width: 100px;
+  height: 100%;
+  font-size: 21px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #F3F78F;
+  color: #BEB665;
+  box-shadow: 0px 5px #989A49;
+  -moz-box-shadow: 0px 5px #989A49;
+  -webkit-box-shadow: 0px 5px #989A49;
+  float: right;
+}
+
+#screen {
+  width: 80%;
+  height: 60%;
+  background-color: white;
+  margin-top: 13px;
+  box-shadow: 0px 5px #4D61A2;
+  -moz-box-shadow: 0px 5px #4D61A2;
+  -webkit-box-shadow: 0px 5px #4D61A2;
+  z-index: 0;
+}
+
+#instructions {
+  width: 55%;
+  height: 9%;
+  font-size: 22px;
+  text-align: center;
+  line-height: 58px;
+  background-color: #B78ADC;
+  box-shadow: 0px 5px #7661A6;
+  -moz-box-shadow: 0px 5px #7661A6;
+  -webkit-box-shadow: 0px 5px #7661A6;
+  margin-top: 13px;
+  z-index: 3;
+}
+
+#playButton {
+  height: 6%;
+  width: 10%;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #CBE7F6;
+  box-shadow: 0px 5px #7DA1B9;
+  -moz-box-shadow: 0px 5px #7DA1B9;
+  -webkit-box-shadow: 0px 5px #7DA1B9;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#playButton:active {
+  margin-top: 20px;
+  box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  -webkit-box-shadow: 0 0 0;
+}
+
+#fruits {
+  width: 150px;
+  height: 85px;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+}
+
+#message {
+  width: 60%;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 35%;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F8C267), to(#FE846A));
+  background: linear-gradient(#F8C267, #FE846A);
+  position: absolute;
+  top: 180px;
+  display: none;
+}
+
+.hideFruits {
+  width: 80%;
+  height: 87px;
+  background-color: #99CEEC;
+  position: absolute;
+  z-index: 2;
+}
+
+#hideFruits1 {
+  top: 10px;
+}
+
+#hideFruits2 {
+  top: 528px;
+  height: 100px;
+}
+
+body {
+  background: radial-gradient(circle, white, pink);
+}
+
+#container {
+  height: 98vh;
+  width: 70%;
+  margin: 0px auto;
+  background-color: #99CEEC;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 5px #2A8AC2;
+  -moz-box-shadow: 0px 5px #2A8AC2;
+  -webkit-box-shadow: 0px 5px #2A8AC2;
+  display: -webkit-box;
+  display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -webkit-display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+}
+
+#liveAndScore {
+  height: 55px;
+  width: 95%;
+  margin-top: 30px;
+  z-index: 3;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fruits Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="styling/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="/styling/Sound/easyaudioeffects-master/jquery.easyaudioeffects.1.0.0.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="liveAndScore">
+                <div id="live">
+                    <div id="live1"></div>
+                    <div id="live2"></div>
+                    <div id="live3"></div>
+                </div>
+                <div id="scoreBox">Score: <span class="score"></span></div>
+            </div>
+            <div class="hideFruits" id="hideFruits1"></div>
+            <div id="fruitGenerator"><div id="fruits"></div></div>
+            <div id="screen"></div>
+            <div id="message">
+                <p>Game Over!</p>
+                <p>Your score is <span class="score"></span></p>
+            </div>
+            <div id="instructions">Catch Fruits</div>
+            <div class="hideFruits" id="hideFruits2"></div>
+            <button id="playButton">Start Game</button>    
+        </div>
+        <audio id="backgroundMusic">
+            <source src="/styling/Sound/sounds/fruitNinja.mp3">
+            <source src="/styling/Sound/sounds/fruitNinja.ogg">
+        </audio>
+        <audio id="gameOver">
+            <source src="/styling/Sound/sounds/gameOver.mp3">
+            <source src="/styling/Sound/sounds/gameOver.ogg">
+        </audio>
+        <audio id="slice">
+            <source src="/styling/Sound/sounds/slice.mp3">
+            <source src="/styling/Sound/sounds/slice.ogg">
+        </audio>
+        <audio id="explosion">
+            <source src="/styling/Sound/sounds/explosion.mp3">
+            <source src="/styling/Sound/sounds/explosion.ogg">
+        </audio>
+        <script src="/JS/code.js"></script>
+    </body>
+</html>

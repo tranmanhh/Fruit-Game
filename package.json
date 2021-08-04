@@ -1,0 +1,14 @@
+{
+  "name": "fruits-game",
+  "version": "1.0.0",
+  "description": "A fruit-cutting game inspired from Fruit Ninja.",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass styling/style.scss styling/style.css -w"
+  },
+  "author": "Manh Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

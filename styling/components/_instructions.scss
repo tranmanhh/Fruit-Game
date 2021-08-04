@@ -1,0 +1,11 @@
+#instructions{
+    width: 55%;
+    height: 9%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 58px;
+    background-color: #B78ADC;
+    @include boxShadow(0px, 5px, #7661A6);
+    margin-top: 13px;
+    z-index: 3;
+}

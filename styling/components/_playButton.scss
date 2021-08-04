@@ -1,0 +1,17 @@
+#playButton{
+    height: 6%;
+    width: 10%;
+    min-width: fit-content;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CBE7F6;
+    @include boxShadow(0px, 5px, #7DA1B9);
+    cursor: pointer;
+    z-index: 3;
+}
+#playButton:active{
+    margin-top: 20px;
+    @include boxShadow(0, 0, 0);
+}

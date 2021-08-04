@@ -1,0 +1,15 @@
+#live{
+    width: 180px;
+    height: 100%;
+    background-color: #F3F78F;
+    @include boxShadow(0px, 5px, #84A5A4);
+    border-radius: 5px;
+    @include displayFlex();
+    justify-content: center;
+    float: left;
+}
+#live1, #live2, #live3{
+    width: 50px;
+    height: 90%;
+    background: url(/styling/Images/heart.png) center no-repeat;
+}

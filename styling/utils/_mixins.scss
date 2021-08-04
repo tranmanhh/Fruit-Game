@@ -1,0 +1,21 @@
+@mixin boxShadow($vertical, $horizontal, $color) {
+    box-shadow: $vertical $horizontal $color;
+    -moz-box-shadow: $vertical $horizontal $color;
+    -webkit-box-shadow: $vertical $horizontal $color;
+}
+@mixin displayFlex {
+    display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+}
+@mixin flexDirection($direction) {
+    flex-direction: $direction;
+    -moz-flex-direction: $direction;
+    -ms-flex-direction: $direction;
+    -webkit-flex-direction: $direction;
+}
+@mixin alignItems($direction) {
+    align-items: $direction;
+    -webkit-align-items: $direction;
+}

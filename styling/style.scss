@@ -1,0 +1,32 @@
+@import "utils/mixins";
+@import "components/live";
+@import "components/scoreBox";
+@import "components/screen";
+@import "components/instructions";
+@import "components/playButton";
+@import "components/fruits";
+@import "components/message";
+@import "components/hideFruits";
+
+body{
+    background: radial-gradient(circle, white, pink);
+}
+
+#container{
+    height: 98vh;
+    width: 70%;
+    margin: 0px auto;
+    background-color: #99CEEC;
+    border-radius: 10px;
+    position: relative;
+    @include boxShadow(0px, 5px, #2A8AC2);
+    @include displayFlex;
+    @include flexDirection(column);
+    @include alignItems(center);
+}
+#liveAndScore{
+    height: 55px;
+    width: 95%;
+    margin-top: 30px;
+    z-index: 3;
+}
