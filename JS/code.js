@@ -7,9 +7,6 @@ $(".score").text(`${INIT_SCORE}`); //display "score: 0"
 
 //click on start game button
 $("#playButton").click(function(){
-    //play the background music
-    $("#backgroundMusic")[0].play();
-
     if(state) //playing
     {
         location.reload(); //reload the page
@@ -126,9 +123,6 @@ function generateFruit()
 //game over
 function endGame()
 {
-    //stop the background music
-    $("#backgroundMusic")[0].pause();
-
     clearInterval(fall); //clear the fall interval
     $("#live").hide(); //hide the live box
     $(".score").html(` ${score}`); //update the score
